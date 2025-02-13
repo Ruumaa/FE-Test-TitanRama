@@ -9,7 +9,7 @@ git clone https://github.com/Ruumaa/FE-test-TitanRama.git
 2️⃣ Menjalankan Frontend
 ```bash
 # Pindah folder
-cd FE-test-TitanRama/
+cd .\FE-test-TitanRama\
 
 # Install dependencies
 npm install
