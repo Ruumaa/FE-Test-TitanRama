@@ -3,13 +3,13 @@ Berikut langkah-langkah untuk menjalankan proyek:
 
 ### **1️⃣ Clone Repository**
 ```bash
-git clone https://github.com/Ruumaa/FE-test-TitanRama.git
+git clone https://github.com/Ruumaa/FE-Test-TitanRama.git
 ```
 
 2️⃣ Menjalankan Frontend
 ```bash
 # Pindah folder
-cd .\FE-test-TitanRama\
+cd .\FE-Test-TitanRama\
 
 # Install dependencies
 npm install
