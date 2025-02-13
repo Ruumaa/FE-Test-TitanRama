@@ -14,7 +14,7 @@ const MobileMenu = () => {
         onClick={toggleMenu}
         className="size-8 lg:hidden flex justify-center items-center"
       >
-        <RxHamburgerMenu size={25.5} />
+        <RxHamburgerMenu size={25.5} className="text-[#1E293B]" />
       </button>
 
       {/* Overlay background*/}
@@ -33,7 +33,11 @@ const MobileMenu = () => {
       >
         <div className="h-full p-9">
           <div className="h-full">
-            <IoClose size={28.5} onClick={toggleMenu} className="-ml-1" />
+            <IoClose
+              size={28.5}
+              onClick={toggleMenu}
+              className="-ml-1 text-[#1E293B]"
+            />
             <ul className="space-y-10 mt-8">
               {navItems.map((item, i) => (
                 <li key={i}>

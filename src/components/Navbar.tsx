@@ -9,9 +9,11 @@ const Navbar = () => {
         return (
           <span
             key={i}
-            className={`hidden lg:block cursor-pointer hover:text-black/70 ${
-              i === 5 && 'text-[#EF4444] hover:text-[#F87171]'
-            } `}
+            className={`hidden lg:block cursor-pointer  ${
+              i === 5
+                ? 'text-[#EF4444] hover:text-[#F87171]'
+                : 'hover:text-[#1E293B]/70'
+            }`}
           >
             {item.name}
           </span>
