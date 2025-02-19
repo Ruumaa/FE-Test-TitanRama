@@ -2,7 +2,7 @@ import React from 'react';
 
 const MainLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <main className="relative w-full h-screen overflow-hidden bg-[url('/bg.png')] bg-cover bg-[position:66%] sm:bg-center lg:bg-[center_right_68%] xl:bg-center bg-no-repeat">
+    <main className="relative w-full h-screen overflow-x-hidden bg-[url('/bg.png')] bg-cover bg-[position:66%] sm:bg-center lg:bg-[center_right_68%] xl:bg-center bg-no-repeat">
       {/* gradient */}
       <div className="h-full w-full absolute inset-0 overflow-hidden bg-gradient-to-l from-white/60 from-[1%] bg-right -right-60 to-transparent lg:hidden z-10"></div>
 
