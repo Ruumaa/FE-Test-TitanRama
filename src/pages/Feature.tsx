@@ -28,7 +28,7 @@ const Feature = () => {
             amet, elementum.
           </p>
         </div>
-        <div className="col-span-2">
+        <div className="lg:col-span-2 xl:col-span-1">
           <h3 className="text-[24px] leading-[32.68px] font-bold">
             Clubs And Groups
           </h3>
